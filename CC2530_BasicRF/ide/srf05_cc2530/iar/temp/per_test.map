@@ -1,0 +1,3333 @@
+################################################################################
+#                                                                              #
+#      IAR Universal Linker V4.61L/W32                                         #
+#                                                                              #
+#           Link time     =  21/Apr/2011  17:00:13                             #
+#           Target CPU    =  x51                                               #
+#           List file     =  "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test.map"                                         #
+#           Output file 1 =  "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\per_test. #
+#                            hex"                                              #
+#                            Format: intel-extended                            #
+#           Output file 2 =  "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\per_test. #
+#                            d51"                                              #
+#                            Format: debug                                     #
+#                            UBROF version 10.0.2                              #
+#                            Using library modules for C-SPY (-rt)             #
+#           Command line  =  "-IC:\Program Files\IAR Systems\Embedded Workbenc #
+#                            h 5.3\8051\CONFIG\"                               #
+#                            -D_NR_OF_BANKS=0 -D_CODEBANK_END=0                #
+#                            -D_CODEBANK_START=0                               #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\adc.r51"                                     #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\basic_rf.r51"                                #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\clock.r51"                                   #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\hal_assert.r51"                              #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\hal_board.r51"                               #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\hal_button.r51"                              #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\hal_digio.r51"                               #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\hal_int.r51"                                 #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\hal_joystick.r51"                            #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\hal_lcd_srf05.r51"                           #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\hal_led.r51"                                 #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\hal_mcu.r51"                                 #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\hal_rf.r51"                                  #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\hal_timer_32k.r51"                           #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\per_test.r51"                                #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\per_test_menu.r51"                           #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\util.r51"                                    #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\util_buffer.r51"                             #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test\util_lcd.r51"                                #
+#                            -o                                                #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\per_test. #
+#                            d51"                                              #
+#                            -l                                                #
+#                            "D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 Basi #
+#                            cRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_ #
+#                            test.map"                                         #
+#                            -xmsn                                             #
+#                            "-IC:\Program Files\IAR Systems\Embedded Workbenc #
+#                            h 5.3\8051\LIB\"                                  #
+#                            -f lnk51ew_cc2530b.xcl (-D_IDATA_END=0xFF         #
+#                            -D_PDATA_START=0x1E00 -D_PDATA_END=0x1EFF         #
+#                            -D_IXDATA_START=0x0001 -D_IXDATA_END=0x1EFF       #
+#                            -D_XDATA_START=_IXDATA_START                      #
+#                            -D_XDATA_END=_IXDATA_END -D_CODE_START=0x0000     #
+#                            -D_CODE_END=0x7FFF -D_FIRST_BANK_ADDR=0x10000     #
+#                            -M(CODE)[(_CODEBANK_START+_FIRST_BANK_ADDR)-(_COD #
+#                            EBANK_END+_FIRST_BANK_ADDR)]*_NR_OF_BANKS+0x10000 #
+#                            =0x8000                                           #
+#                            -ww69=i -D_NEAR_CODE_END=_CODE_END                #
+#                            -D?REGISTER_BANK=0 -D_REGISTER_BANK_START=0       #
+#                            -D?PBANK_NUMBER=0x1E -D?PBANK=0x93                #
+#                            -D_BREG_START=0x00 -D?VB=0x20                     #
+#                            -D_FAR_DATA_NR_OF_BANKS=0x0E                      #
+#                            -D_FAR_DATA_START=0x010001                        #
+#                            -D_FAR_DATA_END=0xFFFFFF                          #
+#                            -D_FAR_CODE_START=_CODE_START                     #
+#                            -D_FAR_CODE_END=_CODE_END -f lnk_base.xcl         #
+#                            (-Z(BIT)BREG=_BREG_START -Z(BIT)BIT_N=0-7F        #
+#                            -Z(DATA)REGISTERS+8=_REGISTER_BANK_START          #
+#                            -Z(DATA)BDATA_Z,BDATA_N,BDATA_I=20-2F             #
+#                            -Z(DATA)VREG+_NR_OF_VIRTUAL_REGISTERS=08-7F       #
+#                            -Z(DATA)PSP,XSP=08-7F -Z(DATA)DOVERLAY=08-7F      #
+#                            -Z(DATA)DATA_I,DATA_Z,DATA_N=08-7F                #
+#                            -U(IDATA)0-7F=(DATA)0-7F                          #
+#                            -Z(IDATA)IDATA_I,IDATA_Z,IDATA_N=08-_IDATA_END    #
+#                            -Z(IDATA)ISTACK+_IDATA_STACK_SIZE#08-_IDATA_END   #
+#                            -Z(IDATA)IOVERLAY=08-FF -Z(CODE)INTVEC=0          #
+#                            -Z(CODE)CSTART=_CODE_START-_CODE_END              #
+#                            -Z(CODE)BIT_ID,BDATA_ID,DATA_ID,IDATA_ID,IXDATA_I #
+#                            D,PDATA_ID,XDATA_ID=_CODE_START-_CODE_END         #
+#                            -Z(CODE)HUGE_ID=_FAR_CODE_START-_FAR_CODE_END     #
+#                            -Z(CODE)BANK_RELAYS,RCODE,DIFUNCT,CODE_C,CODE_N,N #
+#                            EAR_CODE=_CODE_START-_CODE_END                    #
+#                            -P(CODE)BANKED_CODE=_CODE_START-_CODE_END,[(_CODE #
+#                            BANK_START+_FIRST_BANK_ADDR)-(_CODEBANK_END+_FIRS #
+#                            T_BANK_ADDR)]*_NR_OF_BANKS+10000                  #
+#                            -P(CODE)FAR_CODE_C,FAR_CODE_N,FAR_CODE=[_FAR_CODE #
+#                            _START-_FAR_CODE_END]/10000                       #
+#                            -P(CODE)HUGE_CODE_C=_FAR_CODE_START-_FAR_CODE_END #
+#                            -Z(CODE)CHECKSUM#_CODE_END                        #
+#                            -Z(XDATA)EXT_STACK+_EXTENDED_STACK_SIZE=_EXTENDED #
+#                            _STACK_START                                      #
+#                            -Z(XDATA)PSTACK+_PDATA_STACK_SIZE=_PDATA_START-_P #
+#                            DATA_END                                          #
+#                            -Z(XDATA)XSTACK+_XDATA_STACK_SIZE=_XDATA_START-_X #
+#                            DATA_END                                          #
+#                            -Z(XDATA)PDATA_Z,PDATA_I=_PDATA_START-_PDATA_END  #
+#                            -P(XDATA)PDATA_N=_PDATA_START-_PDATA_END          #
+#                            -Z(XDATA)IXDATA_Z,IXDATA_I=_IXDATA_START-_IXDATA_ #
+#                            END                                               #
+#                            -P(XDATA)IXDATA_N=_IXDATA_START-_IXDATA_END       #
+#                            -Z(XDATA)XDATA_Z,XDATA_I=_XDATA_START-_XDATA_END  #
+#                            -P(XDATA)XDATA_N=_XDATA_START-_XDATA_END          #
+#                            -Z(XDATA)XDATA_HEAP+_XDATA_HEAP_SIZE=_XDATA_START #
+#                            -_XDATA_END                                       #
+#                            -Z(CONST)XDATA_ROM_C=_XDATA_START-_XDATA_END      #
+#                            -Z(XDATA)FAR_Z=[_FAR_DATA_START-_FAR_DATA_END]/10 #
+#                            000                                               #
+#                            -Z(XDATA)FAR_I=[_FAR_DATA_START-_FAR_DATA_END]/10 #
+#                            000                                               #
+#                            -Z(CODE)FAR_ID=[_FAR_CODE_START-_FAR_CODE_END]/10 #
+#                            000                                               #
+#                            -Z(XDATA)FAR_HEAP+_FAR_HEAP_SIZE=[_FAR_DATA_START #
+#                            -_FAR_DATA_END]/10000                             #
+#                            -P(XDATA)FAR_N=[_FAR_DATA_START-_FAR_DATA_END]*_F #
+#                            AR_DATA_NR_OF_BANKS+10000                         #
+#                            -P(CONST)FAR_ROM_C=[_FAR_DATA_START-_FAR_DATA_END #
+#                            ]*_FAR_DATA_NR_OF_BANKS+10000                     #
+#                            -Z(XDATA)HUGE_Z,HUGE_I=_FAR_DATA_START-_FAR_DATA_ #
+#                            END                                               #
+#                            -P(XDATA)HUGE_N=_FAR_DATA_START-_FAR_DATA_END     #
+#                            -Z(XDATA)HUGE_HEAP+_HUGE_HEAP_SIZE=_FAR_DATA_STAR #
+#                            T-_FAR_DATA_END                                   #
+#                            -Z(CONST)HUGE_ROM_C=_FAR_DATA_START-_FAR_DATA_END #
+#                            -cx51) -D_BANK0_START=0x00000                     #
+#                            -D_BANK0_END=0x07FFF -D_BANK1_START=0x18000       #
+#                            -D_BANK1_END=0x1FFFF -D_BANK2_START=0x28000       #
+#                            -D_BANK2_END=0x2FFFF -D_BANK3_START=0x38000       #
+#                            -D_BANK3_END=0x3FFFF -D_BANK4_START=0x48000       #
+#                            -D_BANK4_END=0x4FFFF -D_BANK5_START=0x58000       #
+#                            -D_BANK5_END=0x5FFFF -D_BANK6_START=0x68000       #
+#                            -D_BANK6_END=0x6FFFF -D_BANK7_START=0x78000       #
+#                            -D_BANK7_END=0x7FFFF                              #
+#                            -P(CODE)BANK0=_BANK0_START-_BANK0_END             #
+#                            -P(CODE)BANK1=_BANK1_START-_BANK1_END             #
+#                            -P(CODE)BANK2=_BANK2_START-_BANK2_END             #
+#                            -P(CODE)BANK3=_BANK3_START-_BANK3_END             #
+#                            -P(CODE)BANK4=_BANK4_START-_BANK4_END             #
+#                            -P(CODE)BANK5=_BANK5_START-_BANK5_END             #
+#                            -P(CODE)BANK6=_BANK6_START-_BANK6_END             #
+#                            -P(CODE)BANK7=_BANK7_START-_BANK7_END             #
+#                            -D_FLASH_LOCK_BITS_START=((_NR_OF_BANKS*_FIRST_BA #
+#                            NK_ADDR)+0xFFF0)                                  #
+#                            -D_FLASH_LOCK_BITS_END=((_NR_OF_BANKS*_FIRST_BANK #
+#                            _ADDR)+0xFFFF)                                    #
+#                            -Z(CODE)FLASH_LOCK_BITS=_FLASH_LOCK_BITS_START-_F #
+#                            LASH_LOCK_BITS_END                                #
+#                            -U(CODE)0x0000=(CODE)_FLASH_LOCK_BITS_START-_FLAS #
+#                            H_LOCK_BITS_END)                                  #
+#                            -D_NR_OF_VIRTUAL_REGISTERS=8                      #
+#                            -e_medium_write=_formatted_write                  #
+#                            -e_medium_read=_formatted_read -rt                #
+#                            "-Ointel-extended=D:\FEIBIT CC2530\BasicRF µ—Èº∞‘ #
+#                            ¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2 #
+#                            530\iar\per_test.hex"                             #
+#                            -s __program_start                                #
+#                            "C:\Program Files\IAR Systems\Embedded Workbench  #
+#                            5.3\8051\LIB\CLIB\cl-pli-nlxd-1e16x01.r51"        #
+#                            -D_IDATA_STACK_SIZE=0x40                          #
+#                            -D_EXTENDED_STACK_START=0x00                      #
+#                            -D_EXTENDED_STACK_SIZE=0x00                       #
+#                            -D_PDATA_STACK_SIZE=0x80                          #
+#                            -D_XDATA_STACK_SIZE=0x100                         #
+#                            -D_XDATA_HEAP_SIZE=0xFF -D_FAR_HEAP_SIZE=0xFFF    #
+#                            -D_HUGE_HEAP_SIZE=0xFFF                           #
+#                                                                              #
+#                           Copyright (C) 1987-2009 IAR Systems AB.            #
+################################################################################
+
+
+
+
+
+                ****************************************
+                *                                      *
+                *           CROSS REFERENCE            *
+                *                                      *
+                ****************************************
+
+       Program entry at : CODE      000000D3  Relocatable, from module : CSTARTUP
+
+
+
+
+                ****************************************
+                *                                      *
+                *            RUNTIME MODEL             *
+                *                                      *
+                ****************************************
+
+  __calling_convention     = xdata_reentrant
+  __code_model             = near
+  __core                   = plain
+  __data_model             = large
+  __dptr_size              = 16
+  __extended_stack         = disabled
+  __location_for_constants = data
+  __number_of_dptrs        = 1
+  __rt_version             = 1
+
+
+
+                ****************************************
+                *                                      *
+                *              MODULE MAP              *
+                *                                      *
+                ****************************************
+
+
+  DEFINED ABSOLUTE ENTRIES
+    *************************************************************************
+
+  DEFINED ABSOLUTE ENTRIES
+  PROGRAM MODULE, NAME : ?ABS_ENTRY_MOD
+
+Absolute parts
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _HUGE_HEAP_SIZE         00000FFF 
+           _FAR_HEAP_SIZE          00000FFF 
+           _XDATA_HEAP_SIZE        000000FF 
+           _XDATA_STACK_SIZE       00000100 
+           _PDATA_STACK_SIZE       00000080 
+           _EXTENDED_STACK_SIZE    00000000 
+           _EXTENDED_STACK_START   00000000 
+           _IDATA_STACK_SIZE       00000040 
+           _NR_OF_VIRTUAL_REGISTERS
+                                   00000008 
+           _FLASH_LOCK_BITS_END    0000FFFF 
+           _FLASH_LOCK_BITS_START
+                                   0000FFF0 
+           _BANK7_END              0007FFFF 
+           _BANK7_START            00078000 
+           _BANK6_END              0006FFFF 
+           _BANK6_START            00068000 
+           _BANK5_END              0005FFFF 
+           _BANK5_START            00058000 
+           _BANK4_END              0004FFFF 
+           _BANK4_START            00048000 
+           _BANK3_END              0003FFFF 
+           _BANK3_START            00038000 
+           _BANK2_END              0002FFFF 
+           _BANK2_START            00028000 
+           _BANK1_END              0001FFFF 
+           _BANK1_START            00018000 
+           _BANK0_END              00007FFF 
+           _BANK0_START            00000000 
+           _FAR_CODE_END           00007FFF 
+           _FAR_CODE_START         00000000 
+           _FAR_DATA_END           00FFFFFF 
+           _FAR_DATA_START         00010001 
+           _FAR_DATA_NR_OF_BANKS   0000000E 
+           ?VB                     00000020        ?FUNC_ENTER_XDATA (?FUNC_ENTER_XDATA)
+                                                   ?FUNC_LEAVE_XDATA (?FUNC_LEAVE_XDATA)
+                                                   ?INTERRUPT_ENTER_XSP (?INTERRUPT_ENTER_XSP)
+                                                   ?INTERRUPT_LEAVE_XSP (?INTERRUPT_LEAVE_XSP)
+           _BREG_START             00000000 
+           ?PBANK                  00000093 
+           ?PBANK_NUMBER           0000001E 
+           _REGISTER_BANK_START    00000000 
+           ?REGISTER_BANK          00000000        Segment part 6 (CSTARTUP)
+           _NEAR_CODE_END          00007FFF 
+           _FIRST_BANK_ADDR        00010000 
+           _CODE_END               00007FFF 
+           _CODE_START             00000000 
+           _XDATA_END              00001EFF 
+           _XDATA_START            00000001 
+           _IXDATA_END             00001EFF 
+           _IXDATA_START           00000001 
+           _PDATA_END              00001EFF 
+           _PDATA_START            00001E00 
+           _IDATA_END              000000FF 
+           _CODEBANK_START         00000000 
+           _CODEBANK_END           00000000 
+           _NR_OF_BANKS            00000000 
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\adc.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\basic_rf.r51
+  PROGRAM MODULE, NAME : basic_rf
+
+  SEGMENTS IN THE MODULE
+  ======================
+XDATA_I
+  Relative segment, address: XDATA 000002B5 - 000002BA (0x6 bytes), align: 0
+  Segment part 55.            Intra module refs:   Segment part 185
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000002BB - 000002BF (0x5 bytes), align: 0
+  Segment part 57.            Intra module refs:   Segment part 185
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000002C0 - 000002C4 (0x5 bytes), align: 0
+  Segment part 59.            Intra module refs:   Segment part 185
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000002C5 - 000002D2 (0xe bytes), align: 0
+  Segment part 61.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000002D3 - 000002E0 (0xe bytes), align: 0
+  Segment part 63.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000002E1 - 000002EE (0xe bytes), align: 0
+  Segment part 65.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000002EF - 000002FC (0xe bytes), align: 0
+  Segment part 67.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000002FD - 0000030A (0xe bytes), align: 0
+  Segment part 69.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 0000030B - 00000318 (0xe bytes), align: 0
+  Segment part 71.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000319 - 00000326 (0xe bytes), align: 0
+  Segment part 73.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000327 - 00000334 (0xe bytes), align: 0
+  Segment part 75.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000335 - 00000342 (0xe bytes), align: 0
+  Segment part 77.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000343 - 00000350 (0xe bytes), align: 0
+  Segment part 79.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000351 - 0000035E (0xe bytes), align: 0
+  Segment part 81.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 0000035F - 0000036C (0xe bytes), align: 0
+  Segment part 83.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 0000036D - 0000037A (0xe bytes), align: 0
+  Segment part 85.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 0000037B - 00000388 (0xe bytes), align: 0
+  Segment part 87.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000389 - 00000396 (0xe bytes), align: 0
+  Segment part 89.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000397 - 000003A4 (0xe bytes), align: 0
+  Segment part 91.            Intra module refs:   Segment part 207
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000003A5 - 000003B0 (0xc bytes), align: 0
+  Segment part 93.            Intra module refs:   Segment part 211
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000003B1 - 000003B9 (0x9 bytes), align: 0
+  Segment part 95.            Intra module refs:   Segment part 211
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000003BA - 000003C3 (0xa bytes), align: 0
+  Segment part 97.            Intra module refs:   Segment part 215
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000003C4 - 000003CE (0xb bytes), align: 0
+  Segment part 99.            Intra module refs:   Segment part 215
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000003CF - 000003DA (0xc bytes), align: 0
+  Segment part 101.           Intra module refs:   Segment part 215
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000003DB - 000003E7 (0xd bytes), align: 0
+  Segment part 103.           Intra module refs:   Segment part 215
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000003E8 - 000003F2 (0xb bytes), align: 0
+  Segment part 105.           Intra module refs:   Segment part 221
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000003F3 - 000003FC (0xa bytes), align: 0
+  Segment part 107.           Intra module refs:   Segment part 221
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000003FD - 00000406 (0xa bytes), align: 0
+  Segment part 109.           Intra module refs:   Segment part 221
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000407 - 00000410 (0xa bytes), align: 0
+  Segment part 111.           Intra module refs:   Segment part 221
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000411 - 00000415 (0x5 bytes), align: 0
+  Segment part 113.           Intra module refs:   utilPrintLogo
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000416 - 0000041A (0x5 bytes), align: 0
+  Segment part 115.           Intra module refs:   utilPrintLogo
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 0000041B - 0000041F (0x5 bytes), align: 0
+  Segment part 117.           Intra module refs:   utilPrintLogo
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000420 - 00000424 (0x5 bytes), align: 0
+  Segment part 119.           Intra module refs:   utilPrintLogo
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000425 - 00000429 (0x5 bytes), align: 0
+  Segment part 121.           Intra module refs:   utilPrintLogo
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 0000042A - 0000042E (0x5 bytes), align: 0
+  Segment part 123.           Intra module refs:   utilPrintLogo
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 0000042F - 00000433 (0x5 bytes), align: 0
+  Segment part 125.           Intra module refs:   utilPrintLogo
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000434 - 00000438 (0x5 bytes), align: 0
+  Segment part 127.           Intra module refs:   utilPrintLogo
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000439 - 0000043D (0x5 bytes), align: 0
+  Segment part 129.           Intra module refs:   utilPrintLogo
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 0000043E - 00000442 (0x5 bytes), align: 0
+  Segment part 131.           Intra module refs:   utilPrintLogo
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000443 - 00000447 (0x5 bytes), align: 0
+  Segment part 133.           Intra module refs:   utilPrintLogo
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000448 - 00000455 (0xe bytes), align: 0
+  Segment part 135.           Intra module refs:   utilPrintLogo
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000456 - 00000473 (0x1e bytes), align: 0
+  Segment part 137.           Intra module refs:   utilPrintLogo
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000474 - 0000047D (0xa bytes), align: 0
+  Segment part 139.           Intra module refs:   utilPrintLogo
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 0000047E - 00000488 (0xb bytes), align: 0
+  Segment part 142.           Intra module refs:   appReceiver
+                                                   appTransmitter
+                                                   main
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000489 - 00000491 (0x9 bytes), align: 0
+  Segment part 144.           Intra module refs:   appReceiver
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000492 - 00000497 (0x6 bytes), align: 0
+  Segment part 146.           Intra module refs:   appReceiver
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000498 - 0000049D (0x6 bytes), align: 0
+  Segment part 148.           Intra module refs:   appReceiver
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 0000049E - 000004A4 (0x7 bytes), align: 0
+  Segment part 150.           Intra module refs:   appReceiver
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000004A5 - 000004AB (0x7 bytes), align: 0
+  Segment part 152.           Intra module refs:   appReceiver
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000004AC - 000004AF (0x4 bytes), align: 0
+  Segment part 154.           Intra module refs:   appReceiver
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000004B0 - 000004B8 (0x9 bytes), align: 0
+  Segment part 156.           Intra module refs:   appReceiver
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000004B9 - 000004C6 (0xe bytes), align: 0
+  Segment part 158.           Intra module refs:   appTransmitter
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000004C7 - 000004D1 (0xb bytes), align: 0
+  Segment part 160.           Intra module refs:   appTransmitter
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000004D2 - 000004DD (0xc bytes), align: 0
+  Segment part 162.           Intra module refs:   appTransmitter
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000004DE - 000004E4 (0x7 bytes), align: 0
+  Segment part 164.           Intra module refs:   appTransmitter
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000004E5 - 000004ED (0x9 bytes), align: 0
+  Segment part 166.           Intra module refs:   appTransmitter
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000004EE - 000004F7 (0xa bytes), align: 0
+  Segment part 168.           Intra module refs:   main
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000004F8 - 00000508 (0x11 bytes), align: 0
+  Segment part 170.           Intra module refs:   main
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000509 - 00000516 (0xe bytes), align: 0
+  Segment part 172.           Intra module refs:   appTransmitter
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000517 - 00000523 (0xd bytes), align: 0
+  Segment part 174.           Intra module refs:   appTransmitter
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000524 - 00000535 (0x12 bytes), align: 0
+  Segment part 176.           Intra module refs:   appTransmitter
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000536 - 00000541 (0xc bytes), align: 0
+  Segment part 178.           Intra module refs:   appReceiver
+                                                   basicRfInit
+                                                   basicRfRxFrmDoneIsr
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           rxi                     00000536 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 00000101 - 00000140 (0x40 bytes), align: 0
+  Segment part 141.           Intra module refs:   appReceiver
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 00000141 - 00000147 (0x7 bytes), align: 0
+  Segment part 180.           Intra module refs:   appReceiver
+                                                   appTransmitter
+                                                   basicRfInit
+                                                   basicRfRxFrmDoneIsr
+                                                   basicRfSendPacket
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           txState                 00000141 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 00000148 - 00000149 (0x2 bytes), align: 0
+  Segment part 181.           Intra module refs:   ?Subroutine19
+                                                   Segment part 283
+                                                   basicRfInit
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           pConfig                 00000148 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 0000014A - 000001BC (0x73 bytes), align: 0
+  Segment part 182.           Intra module refs:   basicRfSendPacket
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           txMpdu                  0000014A 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 000001BD - 0000023C (0x80 bytes), align: 0
+  Segment part 183.           Intra module refs:   ?Subroutine0
+                                                   basicRfRxFrmDoneIsr
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           rxMpdu                  000001BD 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00000F58 - 00001031 (0xda bytes), align: 0
+  Segment part 232.           Intra module refs:   basicRfInit
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           basicRfRxFrmDoneIsr     00000F58 
+               calls direct, is indirectly called
+               ISTACK = 00000000 ( 00000002 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001032 - 0000103F (0xe bytes), align: 0
+  Segment part 233.           Intra module refs:   basicRfRxFrmDoneIsr
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine0            00001032 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001040 - 000010C7 (0x88 bytes), align: 0
+  Segment part 234.           Intra module refs:   ?Subroutine5
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           basicRfInit             00001040 
+               calls direct
+               XSTACK = 00000063 ( 0000000B )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000010C8 - 000010CC (0x5 bytes), align: 0
+  Segment part 235.           Intra module refs:   basicRfInit
+                                                   utilMenuSelect
+                                                   utilPrintLogo
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine24           000010C8 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000010CD - 000011D2 (0x106 bytes), align: 0
+  Segment part 236.           Intra module refs:   appTransmitter
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           basicRfSendPacket       000010CD 
+               calls direct
+               XSTACK = 00000013 ( 0000000A )
+               ISTACK = 00000000 ( 00000001 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000011D3 - 000011DA (0x8 bytes), align: 0
+  Segment part 237.           Intra module refs:   basicRfSendPacket
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine2            000011D3 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000011DB - 000011DE (0x4 bytes), align: 0
+  Segment part 238.           Intra module refs:   basicRfInit
+                                                   basicRfSendPacket
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine1            000011DB 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000011DF - 000011E4 (0x6 bytes), align: 0
+  Segment part 239.           Intra module refs:   ?Subroutine1
+                                                   appReceiver
+                                                   basicRfInit
+                                                   basicRfRxFrmDoneIsr
+                                                   basicRfSendPacket
+                                                   halLcdWriteLines
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000011E5 - 000011ED (0x9 bytes), align: 0
+  Segment part 240.           Intra module refs:   ?Subroutine1
+                                                   ?Subroutine2
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine19           000011E5 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 00000080 - 00000080 (0x1 bytes), align: 0
+  Segment part 1. ROOT.       Intra module refs:   HalLcd_HW_Control
+                                                   HalLcd_HW_Write
+                                                   halBoardInit
+                                                   halButtonPushed
+                                                   halLcdInit
+                                                   halLedClear
+                                                   halLedSet
+                                                   halLedToggle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_P0                   00000080 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 00000088 - 00000088 (0x1 bytes), align: 0
+  Segment part 2. ROOT.       Intra module refs:   adcSampleSingle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_TCON                 00000088 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 00000089 - 00000089 (0x1 bytes), align: 0
+  Segment part 3. ROOT.       Intra module refs:   port0_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P0IFG                   00000089 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 0000008A - 0000008A (0x1 bytes), align: 0
+  Segment part 4. ROOT.       Intra module refs:   port1_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P1IFG                   0000008A 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 0000008B - 0000008B (0x1 bytes), align: 0
+  Segment part 5. ROOT.       Intra module refs:   port2_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P2IFG                   0000008B 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 0000008F - 0000008F (0x1 bytes), align: 0
+  Segment part 6. ROOT.       Intra module refs:   halBoardInit
+                                                   halButtonPushed
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P0INP                   0000008F 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 00000090 - 00000090 (0x1 bytes), align: 0
+  Segment part 7. ROOT.       Intra module refs:   HalLcd_HW_Control
+                                                   HalLcd_HW_Write
+                                                   halBoardInit
+                                                   halLcdInit
+                                                   halLedClear
+                                                   halLedSet
+                                                   halLedToggle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_P1                   00000090 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 00000091 - 00000091 (0x1 bytes), align: 0
+  Segment part 8. ROOT.       Intra module refs:   basicRfSendPacket
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RFIRQF1                 00000091 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 0000009A - 0000009A (0x1 bytes), align: 0
+  Segment part 9. ROOT.       Intra module refs:   halRfDisableRxInterrupt
+                                                   halRfEnableRxInterrupt
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           IEN2                    0000009A 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 0000009B - 0000009B (0x1 bytes), align: 0
+  Segment part 10. ROOT.      Intra module refs:   rfIsr
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           S1CON                   0000009B 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 0000009D - 0000009D (0x1 bytes), align: 0
+  Segment part 11. ROOT.      Intra module refs:   clockSetMainSrc
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SLEEPSTA                0000009D 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 0000009E - 0000009E (0x1 bytes), align: 0
+  Segment part 12. ROOT.      Intra module refs:   clockSelect32k
+                                                   clockSetMainSrc
+                                                   halBoardInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           CLKCONSTA               0000009E 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000A0 - 000000A0 (0x1 bytes), align: 0
+  Segment part 13. ROOT.      Intra module refs:   halJoystickPushed
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_P2                   000000A0 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000A8 - 000000A8 (0x1 bytes), align: 0
+  Segment part 14. ROOT.      Intra module refs:   appReceiver
+                                                   appTransmitter
+                                                   basicRfInit
+                                                   basicRfRxFrmDoneIsr
+                                                   halBoardInit
+                                                   rfIsr
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_IEN0                 000000A8 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000AF - 000000AF (0x1 bytes), align: 0
+  Segment part 15. ROOT.      Intra module refs:   appTransmitter
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           T1STAT                  000000AF 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000B6 - 000000B6 (0x1 bytes), align: 0
+  Segment part 16. ROOT.      Intra module refs:   adcSampleSingle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ADCCON3                 000000B6 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000B8 - 000000B8 (0x1 bytes), align: 0
+  Segment part 17. ROOT.      Intra module refs:   appStartStop
+                                                   appTransmitter
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_IEN1                 000000B8 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000BA - 000000BA (0x1 bytes), align: 0
+  Segment part 18. ROOT.      Intra module refs:   adcSampleSingle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ADCL                    000000BA 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000BB - 000000BB (0x1 bytes), align: 0
+  Segment part 19. ROOT.      Intra module refs:   adcSampleSingle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ADCH                    000000BB 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000BE - 000000BE (0x1 bytes), align: 0
+  Segment part 20. ROOT.      Intra module refs:   clockSetMainSrc
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           SLEEPCMD                000000BE 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000C0 - 000000C0 (0x1 bytes), align: 0
+  Segment part 21. ROOT.      Intra module refs:   port0_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_IRCON                000000C0 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000C6 - 000000C6 (0x1 bytes), align: 0
+  Segment part 22. ROOT.      Intra module refs:   clockSelect32k
+                                                   clockSetMainSrc
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           CLKCONCMD               000000C6 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000D9 - 000000D9 (0x1 bytes), align: 0
+  Segment part 23. ROOT.      Intra module refs:   basicRfSendPacket
+                                                   halRfReadRxBuf
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RFD                     000000D9 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000DA - 000000DA (0x1 bytes), align: 0
+  Segment part 24. ROOT.      Intra module refs:   appTransmitter
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           T1CC0L                  000000DA 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000DB - 000000DB (0x1 bytes), align: 0
+  Segment part 25. ROOT.      Intra module refs:   appTransmitter
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           T1CC0H                  000000DB 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000E1 - 000000E1 (0x1 bytes), align: 0
+  Segment part 26. ROOT.      Intra module refs:   appReceiver
+                                                   appTransmitter
+                                                   basicRfSendPacket
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RFST                    000000E1 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000E4 - 000000E4 (0x1 bytes), align: 0
+  Segment part 27. ROOT.      Intra module refs:   appStartStop
+                                                   appTransmitter
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           T1CTL                   000000E4 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000E5 - 000000E5 (0x1 bytes), align: 0
+  Segment part 28. ROOT.      Intra module refs:   appTransmitter
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           T1CCTL0                 000000E5 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000E8 - 000000E8 (0x1 bytes), align: 0
+  Segment part 29. ROOT.      Intra module refs:   port1_ISR
+                                                   port2_ISR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_IRCON2               000000E8 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000E9 - 000000E9 (0x1 bytes), align: 0
+  Segment part 30. ROOT.      Intra module refs:   rfIsr
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           RFIRQF0                 000000E9 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000F1 - 000000F1 (0x1 bytes), align: 0
+  Segment part 31. ROOT.      Intra module refs:   halBoardInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           PERCFG                  000000F1 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000F2 - 000000F2 (0x1 bytes), align: 0
+  Segment part 32. ROOT.      Intra module refs:   adcSampleSingle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ADCCFG                  000000F2 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000F3 - 000000F3 (0x1 bytes), align: 0
+  Segment part 33. ROOT.      Intra module refs:   appTransmitter
+                                                   halBoardInit
+                                                   halButtonPushed
+                                                   halLcdInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P0SEL                   000000F3 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000F4 - 000000F4 (0x1 bytes), align: 0
+  Segment part 34. ROOT.      Intra module refs:   halBoardInit
+                                                   halLcdInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P1SEL                   000000F4 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000F5 - 000000F5 (0x1 bytes), align: 0
+  Segment part 35. ROOT.      Intra module refs:   appTransmitter
+                                                   halBoardInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P2SEL                   000000F5 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000F7 - 000000F7 (0x1 bytes), align: 0
+  Segment part 36. ROOT.      Intra module refs:   appTransmitter
+                                                   halBoardInit
+                                                   halButtonPushed
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P2INP                   000000F7 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000F8 - 000000F8 (0x1 bytes), align: 0
+  Segment part 37. ROOT.      Intra module refs:   HalLcd_HW_Control
+                                                   HalLcd_HW_Write
+                                                   halBoardInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           _A_U1CSR                000000F8 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000F9 - 000000F9 (0x1 bytes), align: 0
+  Segment part 38. ROOT.      Intra module refs:   HalLcd_HW_Control
+                                                   HalLcd_HW_Write
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           U1DBUF                  000000F9 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000FA - 000000FA (0x1 bytes), align: 0
+  Segment part 39. ROOT.      Intra module refs:   halBoardInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           U1BAUD                  000000FA 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000FB - 000000FB (0x1 bytes), align: 0
+  Segment part 40. ROOT.      Intra module refs:   halBoardInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           U1UCR                   000000FB 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000FC - 000000FC (0x1 bytes), align: 0
+  Segment part 41. ROOT.      Intra module refs:   halBoardInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           U1GCR                   000000FC 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000FD - 000000FD (0x1 bytes), align: 0
+  Segment part 42. ROOT.      Intra module refs:   halBoardInit
+                                                   halButtonPushed
+                                                   halLcdInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P0DIR                   000000FD 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000FE - 000000FE (0x1 bytes), align: 0
+  Segment part 43. ROOT.      Intra module refs:   halBoardInit
+                                                   halLcdInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P1DIR                   000000FE 
+    -------------------------------------------------------------------------
+SFR_AN
+  Relative segment, address: DATA 000000FF - 000000FF (0x1 bytes), align: 0
+  Segment part 44. ROOT.      Intra module refs:   appTransmitter
+                                                   halBoardInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           P2DIR                   000000FF 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000011EE - 00001230 (0x43 bytes), align: 0
+  Segment part 241.           Intra module refs:   halJoystickGetDir
+                                                   halJoystickPushed
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           adcSampleSingle         000011EE 
+               XSTACK = 00000009 ( 00000000 )
+               ISTACK = 00000000 ( 00000002 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001231 - 00001264 (0x34 bytes), align: 0
+  Segment part 242.           Intra module refs:   halBoardInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           clockSetMainSrc         00001231 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001265 - 0000128A (0x26 bytes), align: 0
+  Segment part 243.           Intra module refs:   halBoardInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           clockSelect32k          00001265 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000128B - 000012BB (0x31 bytes), align: 0
+  Segment part 244.           Intra module refs:   basicRfSendPacket
+                                                   halJoystickPushed
+                                                   halMcuWaitMs
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halMcuWaitUs            0000128B 
+               XSTACK = 0000000A ( 00000000 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000012BC - 000012E8 (0x2d bytes), align: 0
+  Segment part 245.           Intra module refs:   halAssertHandler
+                                                   halJoystickPushed
+                                                   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halMcuWaitMs            000012BC 
+               calls direct
+               XSTACK = 00000009 ( 00000008 )
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000542 - 0000054A (0x9 bytes), align: 0
+  Segment part 184.           Intra module refs:   Segment part 187
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           pPowerSettings          00000542 
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 0000054B - 0000054D (0x3 bytes), align: 0
+  Segment part 186.           Intra module refs:   appTransmitter
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           powerMenu               0000054B 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 0000023D - 0000023E (0x2 bytes), align: 0
+  Segment part 188.           Intra module refs:   basicRfInit
+                                                   rfIsr
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           pfISR                   0000023D 
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 0000054E - 0000054E (0x1 bytes), align: 0
+  Segment part 189.           Intra module refs:   appReceiver
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           rssiOffset              0000054E 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000012E9 - 0000130C (0x24 bytes), align: 0
+  Segment part 246.           Intra module refs:   basicRfInit
+                                                   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halRfInit               000012E9 
+               calls direct
+               XSTACK = 0000000B ( 00000000 )
+               ISTACK = 00000000 ( 00000002 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000130D - 00001325 (0x19 bytes), align: 0
+  Segment part 247.           Intra module refs:   ?Subroutine0
+                                                   basicRfRxFrmDoneIsr
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halRfReadRxBuf          0000130D 
+               ISTACK = 00000000 ( 00000003 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001326 - 00001336 (0x11 bytes), align: 0
+  Segment part 248.           Intra module refs:   basicRfRxFrmDoneIsr
+                                                   basicRfSendPacket
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halRfDisableRxInterrupt
+                                   00001326 
+               XSTACK = 0000000A ( 00000000 )
+               ISTACK = 00000000 ( 00000002 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001337 - 00001347 (0x11 bytes), align: 0
+  Segment part 249.           Intra module refs:   basicRfRxFrmDoneIsr
+                                                   basicRfSendPacket
+                                                   halRfInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halRfEnableRxInterrupt
+                                   00001337 
+               XSTACK = 0000000A ( 00000000 )
+               ISTACK = 00000000 ( 00000002 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001348 - 0000137A (0x33 bytes), align: 0
+  Segment part 250.           Intra module refs:   rfIsr::??INTVEC 131
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           rfIsr                   00001348 
+               interrupt function
+               ISTACK = 00000000 ( 0000000F )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000137B - 0000137F (0x5 bytes), align: 0
+  Segment part 251.           Intra module refs:   T1_ISR
+                                                   rfIsr
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine25           0000137B 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 0000023F - 00000240 (0x2 bytes), align: 0
+  Segment part 191.           Intra module refs:   T1_ISR
+                                                   appTransmitter
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           fptr                    0000023F 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001380 - 0000139B (0x1c bytes), align: 0
+  Segment part 252.           Intra module refs:   T1_ISR::??INTVEC 75
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           T1_ISR                  00001380 
+               interrupt function
+               ISTACK = 00000000 ( 0000000F )
+    -------------------------------------------------------------------------
+CODE_C
+  Relative segment, address: CODE 00000958 - 00000F57 (0x600 bytes), align: 0
+  Segment part 192.           Intra module refs:   ?Subroutine20
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ASCIITAB                00000958 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 00000241 - 00000250 (0x10 bytes), align: 0
+  Segment part 193.           Intra module refs:   ?Subroutine10
+                                                   halLcdWriteLine
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           pLcdLineBuffer          00000241 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000139C - 000013A7 (0xc bytes), align: 0
+  Segment part 253.           Intra module refs:   SET_DDRAM_ADDR
+                                                   halLcdInit
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           HalLcd_HW_Control       0000139C 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000013A8 - 000013AE (0x7 bytes), align: 0
+  Segment part 254.           Intra module refs:   HalLcd_HW_Control
+                                                   HalLcd_HW_Write
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine22           000013A8 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000013AF - 000013BC (0xe bytes), align: 0
+  Segment part 255.           Intra module refs:   ?Subroutine20
+                                                   halLcdClear
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           HalLcd_HW_Write         000013AF 
+               XSTACK = 00000011 ( 00000000 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000013BD - 00001472 (0xb6 bytes), align: 0
+  Segment part 256.           Intra module refs:   halLcdWriteLine
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           lcdWriteLine            000013BD 
+               calls direct
+               XSTACK = 00000009 ( 00000011 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001473 - 0000147A (0x8 bytes), align: 0
+  Segment part 257.           Intra module refs:   convInt32ToText
+                                                   lcdWriteLine
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine26           00001473 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000147B - 00001485 (0xb bytes), align: 0
+  Segment part 258.           Intra module refs:   lcdWriteLine
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine8            0000147B 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001486 - 00001490 (0xb bytes), align: 0
+  Segment part 259.           Intra module refs:   ?Subroutine8
+                                                   halLcdWriteChar
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001491 - 000014B1 (0x21 bytes), align: 0
+  Segment part 260.           Intra module refs:   halLcdClear
+                                                   halLcdWriteChar
+                                                   lcdWriteLine
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           SET_DDRAM_ADDR          00001491 
+               calls direct
+               XSTACK = 00000011 ( 00000000 )
+               ISTACK = 00000000 ( 00000001 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000014B2 - 00001509 (0x58 bytes), align: 0
+  Segment part 261.           Intra module refs:   halBoardInit
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdInit              000014B2 
+               calls direct
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000150A - 0000152C (0x23 bytes), align: 0
+  Segment part 262.           Intra module refs:   appReceiver
+                                                   appTransmitter
+                                                   halLcdInit
+                                                   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdClear             0000150A 
+               calls direct
+               XSTACK = 00000063 ( 00000008 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000152D - 00001531 (0x5 bytes), align: 0
+  Segment part 263.           Intra module refs:   halLcdClear
+                                                   halLcdWriteLines
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine27           0000152D 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001532 - 000015BA (0x89 bytes), align: 0
+  Segment part 264.           Intra module refs:   utilMenuSelect
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdWriteChar         00001532 
+               calls direct
+               XSTACK = 0000000B ( 0000000D )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000015BB - 000015CC (0x12 bytes), align: 0
+  Segment part 265.           Intra module refs:   Segment part 259
+                                                   halLcdWriteChar
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine20           000015BB 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000015CD - 000015D0 (0x4 bytes), align: 0
+  Segment part 266.           Intra module refs:   halLcdWriteChar
+                                                   lcdWriteLine
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine9            000015CD 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000015D1 - 000015D9 (0x9 bytes), align: 0
+  Segment part 267.           Intra module refs:   ?Subroutine9
+                                                   halLcdWriteChar
+                                                   lcdWriteLine
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000015DA - 00001614 (0x3b bytes), align: 0
+  Segment part 268.           Intra module refs:   appTransmitter
+                                                   halLcdWriteLines
+                                                   main
+                                                   utilLcdDisplayValue
+                                                   utilMenuSelect
+                                                   utilPrintLogo
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdWriteLine         000015DA 
+               calls direct
+               XSTACK = 00000037 ( 00000009 )
+               ISTACK = 00000000 ( 00000001 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001615 - 00001619 (0x5 bytes), align: 0
+  Segment part 269.           Intra module refs:   halJoystickGetDir
+                                                   halJoystickPushed
+                                                   halLcdWriteLine
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine28           00001615 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000161A - 00001627 (0xe bytes), align: 0
+  Segment part 270.           Intra module refs:   halLcdWriteLine
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine10           0000161A 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001628 - 0000166A (0x43 bytes), align: 0
+  Segment part 271.           Intra module refs:   appReceiver
+                                                   appTransmitter
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLcdWriteLines        00001628 
+               calls direct
+               XSTACK = 00000065 ( 00000008 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000166B - 00001687 (0x1d bytes), align: 0
+  Segment part 272.           Intra module refs:   appReceiver
+                                                   appTransmitter
+                                                   halBoardInit
+                                                   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halAssertHandler        0000166B 
+               calls direct
+               XSTACK = 00000063 ( 00000000 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001688 - 000016E8 (0x61 bytes), align: 0
+  Segment part 273.           Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halBoardInit            00001688 
+               calls direct
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000016E9 - 00001725 (0x3d bytes), align: 0
+  Segment part 274.           Intra module refs:   ?Subroutine17
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halButtonPushed         000016E9 
+               XSTACK = 00000063 ( 00000000 )
+               ISTACK = 00000000 ( 00000002 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001726 - 0000172A (0x5 bytes), align: 0
+  Segment part 275.           Intra module refs:   appStartStop
+                                                   appTimerISR
+                                                   basicRfRxFrmDoneIsr
+                                                   halButtonPushed
+                                                   halLedClear
+                                                   halLedSet
+                                                   halLedToggle
+                                                   halRfDisableRxInterrupt
+                                                   halRfEnableRxInterrupt
+                                                   halRfInit
+                                                   halRfReadRxBuf
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine23           00001726 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000172B - 00001734 (0xa bytes), align: 0
+  Segment part 276.           Intra module refs:   halBoardInit
+                                                   halButtonPushed
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine11           0000172B 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 00000251 - 00000260 (0x10 bytes), align: 0
+  Segment part 194.           Intra module refs:   ?Subroutine14
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           port0_isr_tbl           00000251 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 00000261 - 00000270 (0x10 bytes), align: 0
+  Segment part 195.           Intra module refs:   ?Subroutine15
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           port1_isr_tbl           00000261 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 00000271 - 0000027A (0xa bytes), align: 0
+  Segment part 196.           Intra module refs:   ?Subroutine16
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           port2_isr_tbl           00000271 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001735 - 0000177D (0x49 bytes), align: 0
+  Segment part 277.           Intra module refs:   port0_ISR::??INTVEC 107
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           port0_ISR               00001735 
+               interrupt function
+               ISTACK = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000177E - 00001782 (0x5 bytes), align: 0
+  Segment part 278.           Intra module refs:   port0_ISR
+                                                   port1_ISR
+                                                   port2_ISR
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine29           0000177E 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001783 - 0000178D (0xb bytes), align: 0
+  Segment part 279.           Intra module refs:   port0_ISR
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine14           00001783 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000178E - 000017D8 (0x4b bytes), align: 0
+  Segment part 280.           Intra module refs:   port1_ISR::??INTVEC 123
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           port1_ISR               0000178E 
+               interrupt function
+               ISTACK = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000017D9 - 000017E3 (0xb bytes), align: 0
+  Segment part 281.           Intra module refs:   port1_ISR
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine15           000017D9 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000017E4 - 000017E4 (0x1 bytes), align: 0
+  Segment part 282.           Intra module refs:   basicRfInit
+                                                   basicRfSendPacket
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine3            000017E4 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000017E5 - 000017E7 (0x3 bytes), align: 0
+  Segment part 283.           Intra module refs:   ?Subroutine3
+                                                   basicRfInit
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000017E8 - 000017EB (0x4 bytes), align: 0
+  Segment part 284.           Intra module refs:   Segment part 283
+                                                   T1_ISR
+                                                   lcdWriteLine
+                                                   port0_ISR
+                                                   port1_ISR
+                                                   port2_ISR
+                                                   rfIsr
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000017EC - 000017F4 (0x9 bytes), align: 0
+  Segment part 285.           Intra module refs:   ?Subroutine19
+                                                   Segment part 284
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine21           000017EC 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000017F5 - 00001840 (0x4c bytes), align: 0
+  Segment part 286.           Intra module refs:   port2_ISR::??INTVEC 51
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           port2_ISR               000017F5 
+               interrupt function
+               ISTACK = 00000000 ( 00000010 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001841 - 0000184B (0xb bytes), align: 0
+  Segment part 287.           Intra module refs:   port2_ISR
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine16           00001841 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000184C - 000018A1 (0x56 bytes), align: 0
+  Segment part 288.           Intra module refs:   appTransmitter
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halJoystickPushed       0000184C 
+               calls direct
+               XSTACK = 00000013 ( 00000009 )
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 0000027B - 0000027B (0x1 bytes), align: 0
+  Segment part 197.           Intra module refs:   halJoystickPushed
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           halJoystickPushed::prevValue
+                                   0000027B 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000018A2 - 000018F3 (0x52 bytes), align: 0
+  Segment part 289.           Intra module refs:   utilMenuSelect
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halJoystickGetDir       000018A2 
+               calls direct
+               XSTACK = 0000000B ( 00000009 )
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 0000027C - 0000027C (0x1 bytes), align: 0
+  Segment part 198.           Intra module refs:   halButtonPushed
+                                                   halLedClear
+                                                   halLedSet
+                                                   halLedToggle
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           led4State               0000027C 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000018F4 - 0000191E (0x2b bytes), align: 0
+  Segment part 290.           Intra module refs:   appReceiver
+                                                   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLedSet               000018F4 
+               XSTACK = 00000063 ( 00000000 )
+               ISTACK = 00000000 ( 00000002 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000191F - 00001948 (0x2a bytes), align: 0
+  Segment part 291.           Intra module refs:   appReceiver
+                                                   appTransmitter
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLedClear             0000191F 
+               XSTACK = 00000063 ( 00000000 )
+               ISTACK = 00000000 ( 00000002 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001949 - 0000197E (0x36 bytes), align: 0
+  Segment part 292.           Intra module refs:   appTransmitter
+                                                   halAssertHandler
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           halLedToggle            00001949 
+               XSTACK = 00000013 ( 00000000 )
+               ISTACK = 00000000 ( 00000002 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000197F - 00001A8F (0x111 bytes), align: 0
+  Segment part 293.           Intra module refs:   utilLcdDisplayValue
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           convInt32ToText         0000197F 
+               XSTACK = 0000000E ( 00000014 )
+               ISTACK = 00000000 ( 00000002 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001A90 - 00001A9D (0xe bytes), align: 0
+  Segment part 294.           Intra module refs:   convInt32ToText
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine7            00001A90 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 0000027D - 00000288 (0xc bytes), align: 0
+  Segment part 199.           Intra module refs:   convInt32ToText
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           convInt32ToText::pValueToTextBuffer
+                                   0000027D 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 00000289 - 00000298 (0x10 bytes), align: 0
+  Segment part 200.           Intra module refs:   ?Subroutine12
+                                                   utilLcdDisplayValue
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           pLcdLineBuffer          00000289 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001A9E - 00001B51 (0xb4 bytes), align: 0
+  Segment part 295.           Intra module refs:   appTransmitter
+                                                   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           utilMenuSelect          00001A9E 
+               calls direct
+               XSTACK = 00000013 ( 0000000B )
+               ISTACK = 00000000 ( 00000001 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001B52 - 00001B69 (0x18 bytes), align: 0
+  Segment part 296.           Intra module refs:   utilMenuSelect
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine4            00001B52 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001B6A - 00001C9B (0x132 bytes), align: 0
+  Segment part 297.           Intra module refs:   main
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           utilPrintLogo           00001B6A 
+               calls direct
+               XSTACK = 00000000 ( 00000039 )
+               ISTACK = 00000000 ( 00000002 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001C9C - 00001D44 (0xa9 bytes), align: 0
+  Segment part 298.           Intra module refs:   Segment part 307
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           utilLcdDisplayValue     00001C9C 
+               calls direct
+               XSTACK = 00000067 ( 0000000E )
+               ISTACK = 00000000 ( 00000001 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001D45 - 00001D52 (0xe bytes), align: 0
+  Segment part 299.           Intra module refs:   utilLcdDisplayValue
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine12           00001D45 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001D53 - 00001D58 (0x6 bytes), align: 0
+  Segment part 300.           Intra module refs:   appReceiver
+                                                   basicRfRxFrmDoneIsr
+                                                   utilLcdDisplayValue
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine6            00001D53 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 00000299 - 0000029E (0x6 bytes), align: 0
+  Segment part 201.           Intra module refs:   ?Subroutine5
+                                                   appReceiver
+                                                   appTransmitter
+                                                   main
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           basicRfConfig           00000299 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 0000029F - 000002A8 (0xa bytes), align: 0
+  Segment part 202.           Intra module refs:   appTransmitter
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           txPacket                0000029F 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 000002A9 - 000002B2 (0xa bytes), align: 0
+  Segment part 203.           Intra module refs:   appReceiver
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           rxPacket                000002A9 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 000002B3 - 000002B3 (0x1 bytes), align: 0
+  Segment part 204.           Intra module refs:   appTimerISR
+                                                   appTransmitter
+                                                   main
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           appState                000002B3 
+    -------------------------------------------------------------------------
+XDATA_Z
+  Relative segment, address: XDATA 000002B4 - 000002B4 (0x1 bytes), align: 0
+  Segment part 205.           Intra module refs:   appStartStop
+                                                   appTransmitter
+                                                   main
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           appStarted              000002B4 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001D59 - 00001D65 (0xd bytes), align: 0
+  Segment part 301.           Intra module refs:   appTransmitter
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           appTimerISR             00001D59 
+               is indirectly called
+               ISTACK = 00000000 ( 00000002 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001D66 - 00001D7F (0x1a bytes), align: 0
+  Segment part 302.           Intra module refs:   appTransmitter
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           appStartStop            00001D66 
+               XSTACK = 00000013 ( 00000000 )
+               ISTACK = 00000000 ( 00000002 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00001D80 - 000020E6 (0x367 bytes), align: 0
+  Segment part 303.           Intra module refs:   main
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           appReceiver             00001D80 
+               calls direct
+               XSTACK = 00000000 ( 00000067 )
+               ISTACK = 00000000 ( 00000002 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000020E7 - 000020ED (0x7 bytes), align: 0
+  Segment part 304.           Intra module refs:   appReceiver
+                                                   main
+                                                   utilMenuSelect
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine17           000020E7 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 000020EE - 00002304 (0x217 bytes), align: 0
+  Segment part 305.           Intra module refs:   main
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           appTransmitter          000020EE 
+               calls direct
+               XSTACK = 00000000 ( 00000017 )
+               ISTACK = 00000000 ( 00000001 )
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00002305 - 00002306 (0x2 bytes), align: 0
+  Segment part 306.           Intra module refs:   appReceiver
+                                                   appTransmitter
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine18           00002305 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00002307 - 0000230C (0x6 bytes), align: 0
+  Segment part 307.           Intra module refs:   ?Subroutine18
+                                                   appReceiver
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000230D - 00002319 (0xd bytes), align: 0
+  Segment part 308.           Intra module refs:   appTransmitter
+                                                   halBoardInit
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine13           0000230D 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 0000231A - 00002325 (0xc bytes), align: 0
+  Segment part 309.           Intra module refs:   appReceiver
+                                                   appTransmitter
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           ?Subroutine5            0000231A 
+    -------------------------------------------------------------------------
+NEAR_CODE
+  Relative segment, address: CODE 00002326 - 000023A0 (0x7b bytes), align: 0
+  Segment part 310.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           main                    00002326        ?call_main (?cmain)
+               calls direct
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 0000054F - 0000057E (0x30 bytes), align: 0
+  Segment part 206.           Intra module refs:   Segment part 209
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           pChannels               0000054F 
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 0000057F - 00000581 (0x3 bytes), align: 0
+  Segment part 208.           Intra module refs:   main
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           channelMenu             0000057F 
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000582 - 00000587 (0x6 bytes), align: 0
+  Segment part 210.           Intra module refs:   Segment part 213
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           pModes                  00000582 
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000588 - 0000058A (0x3 bytes), align: 0
+  Segment part 212.           Intra module refs:   main
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           modeMenu                00000588 
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 0000058B - 00000596 (0xc bytes), align: 0
+  Segment part 214.           Intra module refs:   Segment part 219
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           pBurstSizes             0000058B 
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 00000597 - 000005A6 (0x10 bytes), align: 0
+  Segment part 216.           Intra module refs:   appTransmitter
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           burstSizes              00000597 
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000005A7 - 000005A9 (0x3 bytes), align: 0
+  Segment part 218.           Intra module refs:   appTransmitter
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           burstSizeMenu           000005A7 
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000005AA - 000005B5 (0xc bytes), align: 0
+  Segment part 220.           Intra module refs:   Segment part 223
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           pRate                   000005AA 
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000005B6 - 000005B8 (0x3 bytes), align: 0
+  Segment part 222.           Intra module refs:   appTransmitter
+           LOCAL                   ADDRESS         
+           =====                   =======         
+           rateMenu                000005B6 
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000005B9 - 000005BC (0x4 bytes), align: 0
+  Segment part 224.           Intra module refs:   appReceiver
+                                                   appTransmitter
+                                                   basicRfInit
+                                                   convInt32ToText
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __Constant_0            000005B9 
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000005BD - 000005C0 (0x4 bytes), align: 0
+  Segment part 226.           Intra module refs:   convInt32ToText
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __Constant_a            000005BD 
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000005C1 - 000005C4 (0x4 bytes), align: 0
+  Segment part 228.           Intra module refs:   appReceiver
+                                                   appTransmitter
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __Constant_1            000005C1 
+    -------------------------------------------------------------------------
+XDATA_I
+  Relative segment, address: XDATA 000005C5 - 000005C8 (0x4 bytes), align: 0
+  Segment part 230.           Intra module refs:   appReceiver
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __Constant_3e8          000005C5 
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: CODE 00000000 - 00000035 (0x36 bytes), align: 0
+  Segment part 45. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           port2_ISR::??INTVEC 51
+                                   00000033 
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: CODE 00000000 - 0000004D (0x4e bytes), align: 0
+  Segment part 46. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           T1_ISR::??INTVEC 75     0000004B 
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: CODE 00000000 - 0000006D (0x6e bytes), align: 0
+  Segment part 47. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           port0_ISR::??INTVEC 107
+                                   0000006B 
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: CODE 00000000 - 0000007D (0x7e bytes), align: 0
+  Segment part 48. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           port1_ISR::??INTVEC 123
+                                   0000007B 
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: CODE 00000000 - 00000085 (0x86 bytes), align: 0
+  Segment part 49. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           rfIsr::??INTVEC 131     00000083 
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000000E5 - 000000EA (0x6 bytes), align: 0
+  Segment part 56.            Intra module refs:   Segment part 55
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000000EB - 000000EF (0x5 bytes), align: 0
+  Segment part 58.            Intra module refs:   Segment part 57
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000000F0 - 000000F4 (0x5 bytes), align: 0
+  Segment part 60.            Intra module refs:   Segment part 59
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000000F5 - 00000102 (0xe bytes), align: 0
+  Segment part 62.            Intra module refs:   Segment part 61
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000103 - 00000110 (0xe bytes), align: 0
+  Segment part 64.            Intra module refs:   Segment part 63
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000111 - 0000011E (0xe bytes), align: 0
+  Segment part 66.            Intra module refs:   Segment part 65
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000011F - 0000012C (0xe bytes), align: 0
+  Segment part 68.            Intra module refs:   Segment part 67
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000012D - 0000013A (0xe bytes), align: 0
+  Segment part 70.            Intra module refs:   Segment part 69
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000013B - 00000148 (0xe bytes), align: 0
+  Segment part 72.            Intra module refs:   Segment part 71
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000149 - 00000156 (0xe bytes), align: 0
+  Segment part 74.            Intra module refs:   Segment part 73
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000157 - 00000164 (0xe bytes), align: 0
+  Segment part 76.            Intra module refs:   Segment part 75
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000165 - 00000172 (0xe bytes), align: 0
+  Segment part 78.            Intra module refs:   Segment part 77
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000173 - 00000180 (0xe bytes), align: 0
+  Segment part 80.            Intra module refs:   Segment part 79
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000181 - 0000018E (0xe bytes), align: 0
+  Segment part 82.            Intra module refs:   Segment part 81
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000018F - 0000019C (0xe bytes), align: 0
+  Segment part 84.            Intra module refs:   Segment part 83
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000019D - 000001AA (0xe bytes), align: 0
+  Segment part 86.            Intra module refs:   Segment part 85
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000001AB - 000001B8 (0xe bytes), align: 0
+  Segment part 88.            Intra module refs:   Segment part 87
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000001B9 - 000001C6 (0xe bytes), align: 0
+  Segment part 90.            Intra module refs:   Segment part 89
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000001C7 - 000001D4 (0xe bytes), align: 0
+  Segment part 92.            Intra module refs:   Segment part 91
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000001D5 - 000001E0 (0xc bytes), align: 0
+  Segment part 94.            Intra module refs:   Segment part 93
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000001E1 - 000001E9 (0x9 bytes), align: 0
+  Segment part 96.            Intra module refs:   Segment part 95
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000001EA - 000001F3 (0xa bytes), align: 0
+  Segment part 98.            Intra module refs:   Segment part 97
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000001F4 - 000001FE (0xb bytes), align: 0
+  Segment part 100.           Intra module refs:   Segment part 99
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000001FF - 0000020A (0xc bytes), align: 0
+  Segment part 102.           Intra module refs:   Segment part 101
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000020B - 00000217 (0xd bytes), align: 0
+  Segment part 104.           Intra module refs:   Segment part 103
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000218 - 00000222 (0xb bytes), align: 0
+  Segment part 106.           Intra module refs:   Segment part 105
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000223 - 0000022C (0xa bytes), align: 0
+  Segment part 108.           Intra module refs:   Segment part 107
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000022D - 00000236 (0xa bytes), align: 0
+  Segment part 110.           Intra module refs:   Segment part 109
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000237 - 00000240 (0xa bytes), align: 0
+  Segment part 112.           Intra module refs:   Segment part 111
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000241 - 00000245 (0x5 bytes), align: 0
+  Segment part 114.           Intra module refs:   Segment part 113
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000246 - 0000024A (0x5 bytes), align: 0
+  Segment part 116.           Intra module refs:   Segment part 115
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000024B - 0000024F (0x5 bytes), align: 0
+  Segment part 118.           Intra module refs:   Segment part 117
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000250 - 00000254 (0x5 bytes), align: 0
+  Segment part 120.           Intra module refs:   Segment part 119
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000255 - 00000259 (0x5 bytes), align: 0
+  Segment part 122.           Intra module refs:   Segment part 121
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000025A - 0000025E (0x5 bytes), align: 0
+  Segment part 124.           Intra module refs:   Segment part 123
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000025F - 00000263 (0x5 bytes), align: 0
+  Segment part 126.           Intra module refs:   Segment part 125
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000264 - 00000268 (0x5 bytes), align: 0
+  Segment part 128.           Intra module refs:   Segment part 127
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000269 - 0000026D (0x5 bytes), align: 0
+  Segment part 130.           Intra module refs:   Segment part 129
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000026E - 00000272 (0x5 bytes), align: 0
+  Segment part 132.           Intra module refs:   Segment part 131
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000273 - 00000277 (0x5 bytes), align: 0
+  Segment part 134.           Intra module refs:   Segment part 133
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000278 - 00000285 (0xe bytes), align: 0
+  Segment part 136.           Intra module refs:   Segment part 135
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000286 - 000002A3 (0x1e bytes), align: 0
+  Segment part 138.           Intra module refs:   Segment part 137
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000002A4 - 000002AD (0xa bytes), align: 0
+  Segment part 140.           Intra module refs:   Segment part 139
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000002AE - 000002B8 (0xb bytes), align: 0
+  Segment part 143.           Intra module refs:   Segment part 142
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000002B9 - 000002C1 (0x9 bytes), align: 0
+  Segment part 145.           Intra module refs:   Segment part 144
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000002C2 - 000002C7 (0x6 bytes), align: 0
+  Segment part 147.           Intra module refs:   Segment part 146
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000002C8 - 000002CD (0x6 bytes), align: 0
+  Segment part 149.           Intra module refs:   Segment part 148
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000002CE - 000002D4 (0x7 bytes), align: 0
+  Segment part 151.           Intra module refs:   Segment part 150
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000002D5 - 000002DB (0x7 bytes), align: 0
+  Segment part 153.           Intra module refs:   Segment part 152
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000002DC - 000002DF (0x4 bytes), align: 0
+  Segment part 155.           Intra module refs:   Segment part 154
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000002E0 - 000002E8 (0x9 bytes), align: 0
+  Segment part 157.           Intra module refs:   Segment part 156
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000002E9 - 000002F6 (0xe bytes), align: 0
+  Segment part 159.           Intra module refs:   Segment part 158
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000002F7 - 00000301 (0xb bytes), align: 0
+  Segment part 161.           Intra module refs:   Segment part 160
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000302 - 0000030D (0xc bytes), align: 0
+  Segment part 163.           Intra module refs:   Segment part 162
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000030E - 00000314 (0x7 bytes), align: 0
+  Segment part 165.           Intra module refs:   Segment part 164
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000315 - 0000031D (0x9 bytes), align: 0
+  Segment part 167.           Intra module refs:   Segment part 166
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000031E - 00000327 (0xa bytes), align: 0
+  Segment part 169.           Intra module refs:   Segment part 168
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000328 - 00000338 (0x11 bytes), align: 0
+  Segment part 171.           Intra module refs:   Segment part 170
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000339 - 00000346 (0xe bytes), align: 0
+  Segment part 173.           Intra module refs:   Segment part 172
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000347 - 00000353 (0xd bytes), align: 0
+  Segment part 175.           Intra module refs:   Segment part 174
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000354 - 00000365 (0x12 bytes), align: 0
+  Segment part 177.           Intra module refs:   Segment part 176
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000366 - 00000371 (0xc bytes), align: 0
+  Segment part 179.           Intra module refs:   rxi
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 00000372 - 0000037A (0x9 bytes), align: 0
+  Segment part 185.           Intra module refs:   pPowerSettings
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000037B - 0000037D (0x3 bytes), align: 0
+  Segment part 187.           Intra module refs:   powerMenu
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000037E - 0000037E (0x1 bytes), align: 0
+  Segment part 190.           Intra module refs:   rssiOffset
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 0000037F - 000003AE (0x30 bytes), align: 0
+  Segment part 207.           Intra module refs:   pChannels
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000003AF - 000003B1 (0x3 bytes), align: 0
+  Segment part 209.           Intra module refs:   channelMenu
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000003B2 - 000003B7 (0x6 bytes), align: 0
+  Segment part 211.           Intra module refs:   pModes
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000003B8 - 000003BA (0x3 bytes), align: 0
+  Segment part 213.           Intra module refs:   modeMenu
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000003BB - 000003C6 (0xc bytes), align: 0
+  Segment part 215.           Intra module refs:   pBurstSizes
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000003C7 - 000003D6 (0x10 bytes), align: 0
+  Segment part 217.           Intra module refs:   burstSizes
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000003D7 - 000003D9 (0x3 bytes), align: 0
+  Segment part 219.           Intra module refs:   burstSizeMenu
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000003DA - 000003E5 (0xc bytes), align: 0
+  Segment part 221.           Intra module refs:   pRate
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000003E6 - 000003E8 (0x3 bytes), align: 0
+  Segment part 223.           Intra module refs:   rateMenu
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000003E9 - 000003EC (0x4 bytes), align: 0
+  Segment part 225.           Intra module refs:   __Constant_0
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000003ED - 000003F0 (0x4 bytes), align: 0
+  Segment part 227.           Intra module refs:   __Constant_a
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000003F1 - 000003F4 (0x4 bytes), align: 0
+  Segment part 229.           Intra module refs:   __Constant_1
+    -------------------------------------------------------------------------
+XDATA_ID
+  Relative segment, address: CODE 000003F5 - 000003F8 (0x4 bytes), align: 0
+  Segment part 231.           Intra module refs:   __Constant_3e8
+
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\clock.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\hal_assert.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\hal_board.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\hal_button.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\hal_digio.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\hal_int.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\hal_joystick.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\hal_lcd_srf05.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\hal_led.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\hal_mcu.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\hal_rf.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\hal_timer_32k.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\per_test.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\per_test_menu.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\util.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\util_buffer.r51
+    *************************************************************************
+
+  FILE NAME : D:\FEIBIT CC2530\BasicRF µ—Èº∞‘¥≥Ã–Ú\CC2530 BasicRF\CC2530 BasicRF\ide\srf05_cc2530\iar\temp\per_test\util_lcd.r51
+    *************************************************************************
+
+  FILE NAME : C:\Program Files\IAR Systems\Embedded Workbench 5.3\8051\LIB\CLIB\cl-pli-nlxd-1e16x01.r51
+  LIBRARY MODULE, NAME : ?cexit
+
+  SEGMENTS IN THE MODULE
+  ======================
+CSTART
+  Relative segment, address: CODE 00000086 - 0000008A (0x5 bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           exit                    00000086        ?call_main (?cmain)
+           ?C_EXIT                 00000086 
+           ?ROM_MONITOR_NOPS       00000086 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?cmain
+
+  SEGMENTS IN THE MODULE
+  ======================
+CSTART
+  Relative segment, address: CODE 0000008B, align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?cmain                  0000008B        Segment part 12 (CSTARTUP)
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: CODE 0000008B - 00000093 (0x9 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __low_level_init_call   0000008B        __low_level_init (?low_level_init)
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: CODE 00000094 - 000000A3 (0x10 bytes), align: 0
+  Segment part 11.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __INIT_XDATA_Z          00000094        Segment part 141 (basic_rf)
+                                                   appStarted (basic_rf)
+                                                   appState (basic_rf)
+                                                   basicRfConfig (basic_rf)
+                                                   convInt32ToText::pValueToTextBuffer (basic_rf)
+                                                   fptr (basic_rf)
+                                                   halJoystickPushed::prevValue (basic_rf)
+                                                   led4State (basic_rf)
+                                                   pConfig (basic_rf)
+                                                   pLcdLineBuffer (basic_rf)
+                                                   pfISR (basic_rf)
+                                                   port0_isr_tbl (basic_rf)
+                                                   port1_isr_tbl (basic_rf)
+                                                   port2_isr_tbl (basic_rf)
+                                                   rxMpdu (basic_rf)
+                                                   rxPacket (basic_rf)
+                                                   txMpdu (basic_rf)
+                                                   txPacket (basic_rf)
+                                                   txState (basic_rf)
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: CODE 000000A4 - 000000CC (0x29 bytes), align: 0
+  Segment part 28.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __INIT_XDATA_I          000000A4        Segment part 101 (basic_rf)
+                                                   Segment part 103 (basic_rf)
+                                                   Segment part 105 (basic_rf)
+                                                   Segment part 107 (basic_rf)
+                                                   Segment part 109 (basic_rf)
+                                                   Segment part 111 (basic_rf)
+                                                   Segment part 113 (basic_rf)
+                                                   Segment part 115 (basic_rf)
+                                                   Segment part 117 (basic_rf)
+                                                   Segment part 119 (basic_rf)
+                                                   Segment part 121 (basic_rf)
+                                                   Segment part 123 (basic_rf)
+                                                   Segment part 125 (basic_rf)
+                                                   Segment part 127 (basic_rf)
+                                                   Segment part 129 (basic_rf)
+                                                   Segment part 131 (basic_rf)
+                                                   Segment part 133 (basic_rf)
+                                                   Segment part 135 (basic_rf)
+                                                   Segment part 137 (basic_rf)
+                                                   Segment part 139 (basic_rf)
+                                                   Segment part 142 (basic_rf)
+                                                   Segment part 144 (basic_rf)
+                                                   Segment part 146 (basic_rf)
+                                                   Segment part 148 (basic_rf)
+                                                   Segment part 150 (basic_rf)
+                                                   Segment part 152 (basic_rf)
+                                                   Segment part 154 (basic_rf)
+                                                   Segment part 156 (basic_rf)
+                                                   Segment part 158 (basic_rf)
+                                                   Segment part 160 (basic_rf)
+                                                   Segment part 162 (basic_rf)
+                                                   Segment part 164 (basic_rf)
+                                                   Segment part 166 (basic_rf)
+                                                   Segment part 168 (basic_rf)
+                                                   Segment part 170 (basic_rf)
+                                                   Segment part 172 (basic_rf)
+                                                   Segment part 174 (basic_rf)
+                                                   Segment part 176 (basic_rf)
+                                                   Segment part 55 (basic_rf)
+                                                   Segment part 57 (basic_rf)
+                                                   Segment part 59 (basic_rf)
+                                                   Segment part 61 (basic_rf)
+                                                   Segment part 63 (basic_rf)
+                                                   Segment part 65 (basic_rf)
+                                                   Segment part 67 (basic_rf)
+                                                   Segment part 69 (basic_rf)
+                                                   Segment part 71 (basic_rf)
+                                                   Segment part 73 (basic_rf)
+                                                   Segment part 75 (basic_rf)
+                                                   Segment part 77 (basic_rf)
+                                                   Segment part 79 (basic_rf)
+                                                   Segment part 81 (basic_rf)
+                                                   Segment part 83 (basic_rf)
+                                                   Segment part 85 (basic_rf)
+                                                   Segment part 87 (basic_rf)
+                                                   Segment part 89 (basic_rf)
+                                                   Segment part 91 (basic_rf)
+                                                   Segment part 93 (basic_rf)
+                                                   Segment part 95 (basic_rf)
+                                                   Segment part 97 (basic_rf)
+                                                   Segment part 99 (basic_rf)
+                                                   __Constant_0 (basic_rf)
+                                                   __Constant_1 (basic_rf)
+                                                   __Constant_3e8 (basic_rf)
+                                                   __Constant_a (basic_rf)
+                                                   burstSizeMenu (basic_rf)
+                                                   burstSizes (basic_rf)
+                                                   channelMenu (basic_rf)
+                                                   modeMenu (basic_rf)
+                                                   pBurstSizes (basic_rf)
+                                                   pChannels (basic_rf)
+                                                   pModes (basic_rf)
+                                                   pPowerSettings (basic_rf)
+                                                   pRate (basic_rf)
+                                                   powerMenu (basic_rf)
+                                                   rateMenu (basic_rf)
+                                                   rssiOffset (basic_rf)
+                                                   rxi (basic_rf)
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: CODE 000000CD, align: 0
+  Segment part 32.            Intra module refs:   __low_level_init_call
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: CODE 000000CD - 000000D2 (0x6 bytes), align: 0
+  Segment part 33.            Intra module refs:   ?cmain
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?call_main              000000CD 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : CSTARTUP
+
+  SEGMENTS IN THE MODULE
+  ======================
+REGISTERS
+  Relative segment, address: DATA 00000000, align: 0
+  Segment part 0.             Intra module refs:   Segment part 6
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?REGISTERS              00000000 
+    -------------------------------------------------------------------------
+ISTACK
+  Relative segment, address: IDATA 000000C0, align: 0
+  Segment part 1.             Intra module refs:   Segment part 6
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ISTACK_START           000000C0 
+    -------------------------------------------------------------------------
+XSTACK
+  Relative segment, address: XDATA 00000001, align: 0
+  Segment part 3.             Intra module refs:   ?RESET_XSP
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?XSTACK_START           00000001 
+    -------------------------------------------------------------------------
+INTVEC
+  Common segment, address: CODE 00000000 - 00000002 (0x3 bytes), align: 0
+  Segment part 5. ROOT.       Intra module refs:   Segment part 6
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: CODE 000000D3 - 000000D8 (0x6 bytes), align: 0
+  Segment part 6. ROOT.       Intra module refs:   Segment part 5
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __program_start         000000D3        Absolute parts (?ABS_ENTRY_MOD)
+           ?RESET_SP               000000D6 
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: CODE 000000D9 - 000000DE (0x6 bytes), align: 0
+  Segment part 8.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?RESET_XSP              000000D9        ?XSP (VIRTUAL_REGISTERS)
+    -------------------------------------------------------------------------
+CSTART
+  Relative segment, address: CODE 000000DF - 000000E1 (0x3 bytes), align: 0
+  Segment part 12.            Intra module refs:   Absolute parts
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : VIRTUAL_REGISTERS
+
+  SEGMENTS IN THE MODULE
+  ======================
+BREG
+  Relative segment, address: BIT 00000020.0 - 00000020.7 (0x8 bits), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?B0                     00000020.0      Absolute parts (CSTARTUP)
+    -------------------------------------------------------------------------
+VREG
+  Relative segment, address: DATA 00000008, align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?V0                     00000008        ?FUNC_ENTER_XDATA (?FUNC_ENTER_XDATA)
+                                                   ?FUNC_LEAVE_XDATA (?FUNC_LEAVE_XDATA)
+                                                   ?INTERRUPT_ENTER_XSP (?INTERRUPT_ENTER_XSP)
+                                                   ?INTERRUPT_LEAVE_XSP (?INTERRUPT_LEAVE_XSP)
+                                                   ?Subroutine10 (basic_rf)
+                                                   ?Subroutine12 (basic_rf)
+                                                   ?Subroutine4 (basic_rf)
+                                                   ?Subroutine8 (basic_rf)
+                                                   ?Subroutine9 (basic_rf)
+                                                   Segment part 259 (basic_rf)
+                                                   Segment part 267 (basic_rf)
+                                                   adcSampleSingle (basic_rf)
+                                                   appReceiver (basic_rf)
+                                                   appTransmitter (basic_rf)
+                                                   basicRfInit (basic_rf)
+                                                   basicRfSendPacket (basic_rf)
+                                                   convInt32ToText (basic_rf)
+                                                   halJoystickGetDir (basic_rf)
+                                                   halJoystickPushed (basic_rf)
+                                                   halLcdWriteChar (basic_rf)
+                                                   lcdWriteLine (basic_rf)
+                                                   memcpy (?memcpy)
+                                                   port0_ISR (basic_rf)
+                                                   port1_ISR (basic_rf)
+                                                   port2_ISR (basic_rf)
+                                                   strncpy (?strncpy)
+                                                   utilLcdDisplayValue (basic_rf)
+                                                   utilMenuSelect (basic_rf)
+                                                   utilPrintLogo (basic_rf)
+    -------------------------------------------------------------------------
+XSP
+  Relative segment, address: DATA 00000010 - 00000011 (0x2 bytes), align: 0
+  Segment part 3.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?XSP                    00000010        ?ADD_XSTACK_DISP0_8 (?ADD_XSTACK_DISP8)
+                                                   ?ALLOC_XSTACK8 (?ALLOC_XSTACK8)
+                                                   ?DEALLOC_XSTACK8 (?DEALLOC_XSTACK8)
+                                                   ?FUNC_ENTER_XDATA (?FUNC_ENTER_XDATA)
+                                                   ?FUNC_LEAVE_XDATA (?FUNC_LEAVE_XDATA)
+                                                   ?INTERRUPT_ENTER_XSP (?INTERRUPT_ENTER_XSP)
+                                                   ?INTERRUPT_LEAVE_XSP (?INTERRUPT_LEAVE_XSP)
+                                                   ?PUSH_XSTACK8_X (?PUSH_XSTACK8_X)
+                                                   ?RESET_XSP (CSTARTUP)
+                                                   ?XSTACK_DISP0_8 (?XSTACK_DISP8)
+                                                   appReceiver (basic_rf)
+                                                   appTransmitter (basic_rf)
+                                                   convInt32ToText (basic_rf)
+                                                   lcdWriteLine (basic_rf)
+                                                   utilPrintLogo (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?L_EQ_X
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 000003F9 - 0000040D (0x15 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?L_EQ_X                 000003F9        appReceiver (basic_rf)
+                                                   convInt32ToText (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?SL_GT_X
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 0000040E - 00000422 (0x15 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?SL_GT_X                0000040E        convInt32ToText (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?UL_GT
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 00000423 - 00000432 (0x10 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?UL_GT                  00000423        appTransmitter (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?UL_GT_X
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 00000433 - 00000442 (0x10 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?UL_GT_X                00000433        appReceiver (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?L_MUL
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 00000443 - 00000445 (0x3 bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?L_MUL                  00000443        appReceiver (basic_rf)
+    -------------------------------------------------------------------------
+RCODE
+  Relative segment, address: CODE 00000446 - 000004C2 (0x7d bytes), align: 0
+  Segment part 1.             Intra module refs:   ?L_MUL
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?L_MUL_REW              00000446 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?UL_DIV_MOD
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 000004C3 - 00000532 (0x70 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?UL_DIV_MOD             000004C3        ?L_DIV_MOD (?L_DIV_MOD)
+                                                   appReceiver (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?L_DIV_MOD
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 00000533 - 00000589 (0x57 bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?L_DIV_MOD              0000055D        convInt32ToText (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?L_NEG_R1
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 0000058A - 0000059A (0x11 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?L_NEG_R1               0000058A        ?L_DIV_MOD (?L_DIV_MOD)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?L_NEG
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 0000059B - 000005AB (0x11 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?L_NEG                  0000059B        ?L_DIV_MOD (?L_DIV_MOD)
+                                                   convInt32ToText (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?L_ADD_X
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 000005AC - 000005BE (0x13 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?L_ADD_X                000005AC        appReceiver (basic_rf)
+                                                   appTransmitter (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?L_ADD_TO_X
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 000005BF - 000005D1 (0x13 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?L_ADD_TO_X             000005BF        appReceiver (basic_rf)
+                                                   appTransmitter (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?L_SUB_X
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 000005D2 - 000005E9 (0x18 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?L_SUB_X                000005D2        appReceiver (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?L_MOV_X
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 000005EA - 000005F8 (0xf bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?L_MOV_X                000005EA        appReceiver (basic_rf)
+                                                   appTransmitter (basic_rf)
+                                                   basicRfInit (basic_rf)
+                                                   convInt32ToText (basic_rf)
+                                                   utilLcdDisplayValue (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?L_MOV_TO_X
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 000005F9 - 00000607 (0xf bytes), align: 0
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?L_MOV_TO_X             000005F9        appReceiver (basic_rf)
+                                                   appTransmitter (basic_rf)
+                                                   basicRfInit (basic_rf)
+                                                   convInt32ToText (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?MOVE_LONG8_XDATA_IDATA
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 00000608 - 00000614 (0xd bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?MOVE_LONG8_XDATA_IDATA
+                                   00000608        ?PUSH_XSTACK_I (?PUSH_XSTACK_I)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?MOVE_LONG8_XDATA_XDATA
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 00000615 - 00000635 (0x21 bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?MOVE_LONG8_XDATA_XDATA
+                                   00000615        ?PUSH_XSTACK8_X (?PUSH_XSTACK8_X)
+                                                   appReceiver (basic_rf)
+                                                   utilPrintLogo (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?S_DIV_MOD
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 00000636 - 00000676 (0x41 bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?S_DIV_MOD              0000066F        appReceiver (basic_rf)
+    -------------------------------------------------------------------------
+RCODE
+  Relative segment, address: CODE 00000677 - 000006CF (0x59 bytes), align: 0
+  Segment part 1.             Intra module refs:   ?S_DIV_MOD
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?US_DIV_MOD             00000677        appTransmitter (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?S_SHL
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 000006D0 - 000006D2 (0x3 bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?S_SHL                  000006D0        adcSampleSingle (basic_rf)
+                                                   appTransmitter (basic_rf)
+                                                   halLcdWriteChar (basic_rf)
+                                                   lcdWriteLine (basic_rf)
+                                                   port0_ISR (basic_rf)
+                                                   port1_ISR (basic_rf)
+                                                   port2_ISR (basic_rf)
+    -------------------------------------------------------------------------
+RCODE
+  Relative segment, address: CODE 000006D3 - 000006D5 (0x3 bytes), align: 0
+  Segment part 1.             Intra module refs:   Segment part 2
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?S_SHL_REW              000006D3 
+    -------------------------------------------------------------------------
+RCODE
+  Relative segment, address: CODE 000006D6 - 000006E2 (0xd bytes), align: 0
+  Segment part 2.             Intra module refs:   ?S_SHL
+                                                   ?S_SHL_REW
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?ALLOC_XSTACK8
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 000006E3 - 000006F8 (0x16 bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ALLOC_XSTACK8          000006E3        appReceiver (basic_rf)
+                                                   appTransmitter (basic_rf)
+                                                   convInt32ToText (basic_rf)
+                                                   lcdWriteLine (basic_rf)
+                                                   utilPrintLogo (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?DEALLOC_XSTACK8
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 000006F9 - 00000712 (0x1a bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?DEALLOC_XSTACK8        000006F9        ?Subroutine26 (basic_rf)
+                                                   appReceiver (basic_rf)
+                                                   appTransmitter (basic_rf)
+                                                   utilPrintLogo (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?ADD_XSTACK_DISP8
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 00000713 - 0000072D (0x1b bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?ADD_XSTACK_DISP0_8     00000713        ?PUSH_XSTACK_I (?PUSH_XSTACK_I)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?XSTACK_DISP8
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 0000072E - 00000737 (0xa bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?XSTACK_DISP0_8         0000072E        appReceiver (basic_rf)
+                                                   convInt32ToText (basic_rf)
+                                                   halLcdWriteLines (basic_rf)
+                                                   memcpy (?memcpy)
+                                                   strncpy (?strncpy)
+                                                   utilLcdDisplayValue (basic_rf)
+                                                   utilPrintLogo (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?CALL_IND
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 00000738 - 00000739 (0x2 bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?CALL_IND               00000738        T1_ISR (basic_rf)
+                                                   port0_ISR (basic_rf)
+                                                   port1_ISR (basic_rf)
+                                                   port2_ISR (basic_rf)
+                                                   rfIsr (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?FUNC_ENTER_XDATA
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 0000073A - 00000799 (0x60 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?FUNC_ENTER_XDATA       0000073A        appReceiver (basic_rf)
+                                                   appTransmitter (basic_rf)
+                                                   basicRfInit (basic_rf)
+                                                   basicRfSendPacket (basic_rf)
+                                                   convInt32ToText (basic_rf)
+                                                   halJoystickGetDir (basic_rf)
+                                                   halJoystickPushed (basic_rf)
+                                                   halLcdClear (basic_rf)
+                                                   halLcdWriteChar (basic_rf)
+                                                   halLcdWriteLine (basic_rf)
+                                                   halLcdWriteLines (basic_rf)
+                                                   halMcuWaitMs (basic_rf)
+                                                   lcdWriteLine (basic_rf)
+                                                   memcpy (?memcpy)
+                                                   strcat (?strcat)
+                                                   strncpy (?strncpy)
+                                                   utilLcdDisplayValue (basic_rf)
+                                                   utilMenuSelect (basic_rf)
+                                                   utilPrintLogo (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?FUNC_LEAVE_XDATA
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 0000079A - 000007D1 (0x38 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?FUNC_LEAVE_XDATA       0000079A        ?Subroutine24 (basic_rf)
+                                                   ?Subroutine26 (basic_rf)
+                                                   ?Subroutine27 (basic_rf)
+                                                   ?Subroutine28 (basic_rf)
+                                                   basicRfSendPacket (basic_rf)
+                                                   halLcdWriteChar (basic_rf)
+                                                   halMcuWaitMs (basic_rf)
+                                                   memcpy (?memcpy)
+                                                   strcat (?strcat)
+                                                   strncpy (?strncpy)
+                                                   utilLcdDisplayValue (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?INTERRUPT_ENTER_XSP
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 000007D2 - 00000830 (0x5f bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?INTERRUPT_ENTER_XSP    000007D2        T1_ISR (basic_rf)
+                                                   port0_ISR (basic_rf)
+                                                   port1_ISR (basic_rf)
+                                                   port2_ISR (basic_rf)
+                                                   rfIsr (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?INTERRUPT_LEAVE_XSP
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 00000831 - 00000880 (0x50 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?INTERRUPT_LEAVE_XSP    00000831        ?Subroutine25 (basic_rf)
+                                                   ?Subroutine29 (basic_rf)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?PUSH_XSTACK_I
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 00000881 - 00000884 (0x4 bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?PUSH_XSTACK_I_FOUR     00000881        appReceiver (basic_rf)
+                                                   appTransmitter (basic_rf)
+    -------------------------------------------------------------------------
+RCODE
+  Relative segment, address: CODE 00000885 - 00000888 (0x4 bytes), align: 0
+  Segment part 2.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?PUSH_XSTACK_I_TWO      00000885        appReceiver (basic_rf)
+                                                   appTransmitter (basic_rf)
+                                                   utilPrintLogo (basic_rf)
+    -------------------------------------------------------------------------
+RCODE
+  Relative segment, address: CODE 00000889 - 00000895 (0xd bytes), align: 0
+  Segment part 4.             Intra module refs:   ?PUSH_XSTACK_I_FOUR
+                                                   ?PUSH_XSTACK_I_TWO
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?PUSH_XSTACK_I          00000889 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?PUSH_XSTACK8_X
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 00000896 - 00000899 (0x4 bytes), align: 0
+  Segment part 1.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?PUSH_XSTACK8_X_FOUR    00000896        appReceiver (basic_rf)
+    -------------------------------------------------------------------------
+RCODE
+  Relative segment, address: CODE 0000089A - 000008C2 (0x29 bytes), align: 0
+  Segment part 5.             Intra module refs:   ?PUSH_XSTACK8_X_FOUR
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?PUSH_XSTACK8_X         0000089A 
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?UC_SWITCH_DENSE
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 000008C3 - 000008C8 (0x6 bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?UC_SWITCH_DENSE        000008C3        appTransmitter (basic_rf)
+                                                   halLedClear (basic_rf)
+                                                   halLedSet (basic_rf)
+                                                   halLedToggle (basic_rf)
+    -------------------------------------------------------------------------
+RCODE
+  Relative segment, address: CODE 000008C9 - 000008F7 (0x2f bytes), align: 0
+  Segment part 2.             Intra module refs:   ?UC_SWITCH_DENSE
+    -------------------------------------------------------------------------
+RCODE
+  Relative segment, address: CODE 000008F8 - 000008F8 (0x1 bytes), align: 0
+  Segment part 4.             Intra module refs:   ?UC_SWITCH_DENSE
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?UC_SWITCH_SPARSE
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 000008F9 - 000008FF (0x7 bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?UC_SWITCH_SPARSE       000008F9        utilPrintLogo (basic_rf)
+    -------------------------------------------------------------------------
+RCODE
+  Relative segment, address: CODE 00000900 - 00000921 (0x22 bytes), align: 0
+  Segment part 2.             Intra module refs:   ?UC_SWITCH_SPARSE
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?UC_SWITCH_SPARSE_LEAVE
+                                   00000916        ?UC_JMP_IF_IN_RANGE (?UC_JMP_IF_IN_RANGE)
+                                                   ?UC_JMP_IF_VALUE (?UC_JMP_IF_VALUE)
+    -------------------------------------------------------------------------
+RCODE
+  Relative segment, address: CODE 00000922 - 00000922 (0x1 bytes), align: 0
+  Segment part 4.             Intra module refs:   ?UC_SWITCH_SPARSE
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?UC_JMP_IF_IN_RANGE
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 00000923 - 00000941 (0x1f bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?UC_JMP_IF_IN_RANGE     00000923        ?UC_SWITCH_SPARSE_LEAVE (?UC_SWITCH_SPARSE)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?UC_JMP_IF_VALUE
+
+  SEGMENTS IN THE MODULE
+  ======================
+RCODE
+  Relative segment, address: CODE 00000942 - 00000957 (0x16 bytes), align: 0
+  Segment part 0.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           ?UC_JMP_IF_VALUE        00000942        ?UC_SWITCH_SPARSE_LEAVE (?UC_SWITCH_SPARSE)
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?memcpy
+
+  SEGMENTS IN THE MODULE
+  ======================
+NEAR_CODE
+  Relative segment, address: CODE 000023A1 - 000023E8 (0x48 bytes), align: 0
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           memcpy                  000023A1        appReceiver (basic_rf)
+               XSTACK = 00000002 ( 00000009 )
+               ISTACK = 00000000 ( 00000001 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?strcat
+
+  SEGMENTS IN THE MODULE
+  ======================
+NEAR_CODE
+  Relative segment, address: CODE 000023E9 - 0000241E (0x36 bytes), align: 0
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           strcat                  000023E9        utilPrintLogo (basic_rf)
+               XSTACK = 00000000 ( 00000008 )
+               ISTACK = 00000000 ( 00000001 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?strlen
+
+  SEGMENTS IN THE MODULE
+  ======================
+NEAR_CODE
+  Relative segment, address: CODE 0000241F - 0000243A (0x1c bytes), align: 0
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           strlen                  0000241F        lcdWriteLine (basic_rf)
+                                                   utilPrintLogo (basic_rf)
+               ISTACK = 00000000 ( 00000002 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?strncpy
+
+  SEGMENTS IN THE MODULE
+  ======================
+NEAR_CODE
+  Relative segment, address: CODE 0000243B - 000024A1 (0x67 bytes), align: 0
+  Segment part 6.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           strncpy                 0000243B        utilPrintLogo (basic_rf)
+               XSTACK = 00000002 ( 00000009 )
+               ISTACK = 00000000 ( 00000001 )
+
+    -------------------------------------------------------------------------
+  LIBRARY MODULE, NAME : ?low_level_init
+
+  SEGMENTS IN THE MODULE
+  ======================
+CSTART
+  Relative segment, address: CODE 000000E2 - 000000E4 (0x3 bytes), align: 0
+  Segment part 6. ROOT.
+           ENTRY                   ADDRESS         REF BY
+           =====                   =======         ======
+           __low_level_init        000000E2        __low_level_init_call (?cmain)
+
+
+
+
+                ****************************************
+                *                                      *
+                *            MODULE SUMMARY            *
+                *                                      *
+                ****************************************
+
+Module                    CODE      DATA      XDATA  IDATA    BIT
+------                    ----      ----      -----  -----    ---
+                         (Rel)  (Rel)  (Abs)  (Rel)  (Rel)  (Rel)
+?ADD_XSTACK_DISP8           27
+?ALLOC_XSTACK8              22
+?CALL_IND                    2
+?DEALLOC_XSTACK8            26
+?FUNC_ENTER_XDATA           96
+?FUNC_LEAVE_XDATA           56
+?INTERRUPT_ENTER_XSP        95
+?INTERRUPT_LEAVE_XSP        80
+?L_ADD_TO_X                 19
+?L_ADD_X                    19
+?L_DIV_MOD                  87
+?L_EQ_X                     21
+?L_MOV_TO_X                 15
+?L_MOV_X                    15
+?L_MUL                     128
+?L_NEG                      17
+?L_NEG_R1                   17
+?L_SUB_X                    24
+?MOVE_LONG8_XDATA_IDATA     13
+?MOVE_LONG8_XDATA_XDATA     33
+?PUSH_XSTACK8_X             45
+?PUSH_XSTACK_I              21
+?SL_GT_X                    21
+?S_DIV_MOD                 154
+?S_SHL                      19
+?UC_JMP_IF_IN_RANGE         31
+?UC_JMP_IF_VALUE            22
+?UC_SWITCH_DENSE            54
+?UC_SWITCH_SPARSE           42
+?UL_DIV_MOD                112
+?UL_GT                      16
+?UL_GT_X                    16
+?XSTACK_DISP8               10
+?cexit                       5
+?cmain                      72
+?low_level_init              3
+?memcpy                     72
+?strcat                     54
+?strlen                     28
+?strncpy                   103
+CSTARTUP                    15
+  + common                   3
+VIRTUAL_REGISTERS                   2                           8
+basic_rf                 7 517            44  1 224
+  + common                 134
+N/A (command line)                 16           256     64
+N/A (alignment)
+----------               -----     --     --  -----     --      -
+Total:                   9 244     18     44  1 480     64      8
+  + common                 134
+
+
+                ****************************************
+                *                                      *
+                *      SEGMENTS IN ADDRESS ORDER       *
+                *                                      *
+                ****************************************
+
+
+SEGMENT              SPACE    START ADDRESS   END ADDRESS     SIZE  TYPE  ALIGN
+=======              =====    =============   ===========     ====  ====  =====
+INTVEC               CODE          00000000 - 00000085          86   com    0
+CSTART               CODE          00000086 - 000000E4          5F   rel    0
+IXDATA_ID            CODE               000000E5                     dse    0
+IDATA_ID             CODE               000000E5                     dse    0
+BDATA_ID             CODE               000000E5                     dse    0
+PDATA_ID             CODE               000000E5                     dse    0
+BIT_ID               CODE               000000E5                     dse    0
+DATA_ID              CODE               000000E5                     dse    0
+XDATA_ID             CODE          000000E5 - 000003F8         314   rel    0
+BANK_RELAYS          CODE               000003F9                     dse    0
+RCODE                CODE          000003F9 - 00000957         55F   rel    0
+DIFUNCT              CODE               00000958                     dse    0
+CODE_C               CODE          00000958 - 00000F57         600   rel    0
+CODE_N               CODE               00000F58                     dse    0
+NEAR_CODE            CODE          00000F58 - 000024A1        154A   rel    0
+REGISTERS            DATA          00000000 - 00000007           8   rel    0
+VREG                 DATA          00000008 - 0000000F           8   rel    0
+PSP                  DATA               00000010                     dse    0
+XSP                  DATA          00000010 - 00000011           2   rel    0
+BREG                 BIT        00000020.0  -  00000020.7        8   rel    0
+SFR_AN               DATA          00000080 - 00000080           1   rel    0
+                     DATA          00000088 - 0000008B           4 
+                     DATA          0000008F - 00000091           3 
+                     DATA          0000009A - 0000009B           2 
+                     DATA          0000009D - 0000009E           2 
+                     DATA          000000A0 - 000000A0           1 
+                     DATA          000000A8 - 000000A8           1 
+                     DATA          000000AF - 000000AF           1 
+                     DATA          000000B6 - 000000B6           1 
+                     DATA          000000B8 - 000000B8           1 
+                     DATA          000000BA - 000000BB           2 
+                     DATA          000000BE - 000000BE           1 
+                     DATA          000000C0 - 000000C0           1 
+                     DATA          000000C6 - 000000C6           1 
+                     DATA          000000D9 - 000000DB           3 
+                     DATA          000000E1 - 000000E1           1 
+                     DATA          000000E4 - 000000E5           2 
+                     DATA          000000E8 - 000000E9           2 
+                     DATA          000000F1 - 000000F5           5 
+                     DATA          000000F7 - 000000FF           9 
+XSTACK               XDATA         00000001 - 00000100         100   rel    0
+XDATA_Z              XDATA         00000101 - 000002B4         1B4   rel    0
+XDATA_I              XDATA         000002B5 - 000005C8         314   rel    0
+ISTACK               IDATA         000000C0 - 000000FF          40   rel    0
+
+                ****************************************
+                *                                      *
+                *        END OF CROSS REFERENCE        *
+                *                                      *
+                ****************************************
+
+ 9 378 bytes of CODE  memory
+    18 bytes of DATA  memory (+ 44 absolute )
+ 1 480 bytes of XDATA memory
+    64 bytes of IDATA memory
+     8 bits  of BIT   memory
+
+Errors: none
+Warnings: none
+
