@@ -1,0 +1,34 @@
+--------------------------------------------------------------------------------
+                              Batch Process Report
+
+                     CADSTAR Design Editor Version 8.0.0.2
+
+Design:     G:\02_Interne_prosjekter\02500_interne_tekniske_prosjekter\02577_CC2511_USB_Dongle\02577_3_Des\Hardware\CC2511_USB_Dongle\pcb\CC2511_USB_Dongle_1_3.pcb
+
+Design Title:
+CC2511 USB DONGLE 1.3
+
+Units:            Thousandths of an inch
+Decimal Places:   4
+
+Date:      8. oktober 2007
+Time:      13:20
+
+--------------------------------------------------------------------------------
+
+************************************ ROW 12 ************************************
+
+
+ [<None>] :: [N.C. Drill] :: [drill.col] :: [NCDrill File] :: [Cnc.usr] :: [ncdrill_artwork.sel] :: [NCdrill.spl] 
+
+ Drill No.  Tool No.      Size     Count   File Name
+------------------------------------------------------------
+         0         1   10.0000        71
+         1         2   14.0000         9
+         2         3   35.0000        20
+         3         4   59.0000         2
+         4         5   90.0000         2
+------------------------------------------------------------
+                         TOTAL       104
+
+Row completed successfully.

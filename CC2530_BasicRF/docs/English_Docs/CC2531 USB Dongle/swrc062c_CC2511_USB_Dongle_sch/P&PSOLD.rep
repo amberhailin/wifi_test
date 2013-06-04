@@ -1,0 +1,9 @@
+PICK AND PLACE COORDINATES
+8. oktober 2007
+Reference point is bottom left corner at 1000.00, 1000.00
+Board side: Solder side (bottom)
+Number of components:3     
+FM6,      3025.0000,  3275.0000, 0.000,      FIDUCIAL_MARK,       
+FM4,      3025.0000,  4460.0000, 0.000,      FIDUCIAL_MARK,       
+FM5,      2840.0000,  4375.0000, 0.000,      FIDUCIAL_MARK,       
+END OF LIST

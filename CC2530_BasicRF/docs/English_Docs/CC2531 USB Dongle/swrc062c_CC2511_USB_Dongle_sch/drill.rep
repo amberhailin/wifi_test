@@ -1,0 +1,56 @@
+--------------------------------------------------------------------------------
+                              Batch Process Report
+
+                     CADSTAR Design Editor Version 8.0.0.2
+
+Design:     G:\02_Interne_prosjekter\02500_interne_tekniske_prosjekter\02577_CC2511_USB_Dongle\02577_3_Des\Hardware\CC2511_USB_Dongle\pcb\CC2511_USB_Dongle_1_3.pcb
+
+Design Title:
+CC2511 USB DONGLE 1.3
+
+Units:            Thousandths of an inch
+Decimal Places:   4
+
+Date:      8. oktober 2007
+Time:      13:20
+
+--------------------------------------------------------------------------------
+
+************************************ ROW 11 ************************************
+
+
+ [<None>] :: [Drill Drawing] :: [drill.col] :: [Photo Plotter] :: [ext_gerber.usr] :: [Photoplot_art.sel] :: [drill.spl] 
+
+
+Drill Report
+------------
+
+      Size    Letter     Count
+      ----    ------     -----
+   10.0000         X        71
+   14.0000         K         9
+   35.0000         L        20
+   59.0000         Q         2
+   90.0000         T         2
+
+
+Symbol Availability Report
+--------------------------
+
+Position    Shape          Usage           Size    Orient        Length     Count
+--------    -----          -----           ----    ------        ------     -----
+
+Predefined Symbols
+------------------
+
+
+Auto Allocated Symbols
+----------------------
+
+11          CIRCLE         Drawn         1.0000                                  
+12          ANNULUS        Flashed      40.0000                 20.0000       104
+13          CIRCLE         Drawn         5.0000                                  
+14          CIRCLE         Drawn         8.0000                                  
+
+
+Row completed successfully.
